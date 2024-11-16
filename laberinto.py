@@ -12,3 +12,7 @@ pygame.display.set_caption("Resolución de Laberinto con IA Clásica")
 BLANCO = (255, 255, 255)
 NEGRO = (0, 0, 0)
 VERDE = (0, 255, 0)
+
+# Tamaño del laberinto
+FILAS, COLUMNAS = 15, 15
+TAMANO_CELDA = ANCHO // COLUMNAS
